@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 220px;
+  margin-top: 80px;
+}
+
+.textoFrase {
+  font-style: italic;
+  color: #c76910;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.botao {
+  width: 180px;
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #c76910;
+  border: 2px solid #c76910;
+  background-color: #FFFFFF;
+  margin-top: 50px;
+}
+
+.botao:hover {
+  background-color: #c76910;
+  color: #FFFFFF;
+  transition: 0.3s ease-in-out;
+}
